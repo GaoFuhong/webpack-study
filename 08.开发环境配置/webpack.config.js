@@ -31,6 +31,7 @@ module.exports = {
                 options: {
                     limit: 8 * 1024,
                     name: "[hash:10].[ext]",
+                    esModule: false, // 关闭es6模块化
                     outputPath: "images"
                 }
             },
