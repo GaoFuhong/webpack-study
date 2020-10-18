@@ -32,6 +32,7 @@
     "postcss-loader": "^4.0.4",
     "postcss-preset-env": "^6.7.0",
     "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^5.0.0",
     "thread-loader": "^3.0.0",
     "url-loader": "^4.1.0",
     "webpack": "^4.44.2",
@@ -56,5 +57,9 @@
     "env": {
       "browser": true
     }
-  }
+  },
+  "eslintIgnore": [
+    "build",
+    "dist"
+  ]
 }

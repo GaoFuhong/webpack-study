@@ -10,11 +10,11 @@ module.exports = {
   module: {
     rules: [
       /*
-                语法检查：eslint-loader eslint
-                    注意：只检查自己写的源代码，第三方库是不检查的
-                    设置检查规则：package.json中eslintConfig中设置
-                        airbub --> eslint-config-airbnb-base eslint eslint-plugin-import
-            */
+        语法检查：eslint-loader eslint
+          注意：只检查自己写的源代码，第三方库是不检查的
+          设置检查规则：package.json中eslintConfig中设置
+            airbub --> eslint-config-airbnb-base eslint eslint-plugin-import
+      */
       {
         test: /\.js$/,
         exclude: /node_modules/,
